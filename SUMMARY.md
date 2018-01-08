@@ -10,6 +10,5 @@
 
 ## Scripting
 
-* [Basics](basics.md)
-* [Basic](basic.md)
+* [Basics](basic.md)
 
