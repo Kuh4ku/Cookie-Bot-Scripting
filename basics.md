@@ -1,6 +1,6 @@
 # How does a script work
 
-First let's take a look at a simple script:
+
 
 {% method %}
 
