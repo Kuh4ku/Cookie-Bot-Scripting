@@ -3,13 +3,15 @@
 ## Overview
 
 * [My Awesome API](README.md)
+* Basics
 
 ## Methods
 
-* [Scripting](scripting.md)
 * [Defining Methods](methods.md)
 
 ## Scripting
+
+* [Scripting](scripting.md)
 
 
 
