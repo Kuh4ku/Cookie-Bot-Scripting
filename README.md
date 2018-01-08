@@ -1,3 +1,6 @@
-# My Awesome API
+# Cookie Bot Scripting
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+Ce guide a pour but de présenter l'API Cookie Touch pour pouvoir créer des scripts utilisable par le bot Cookie.
+
+This guide's goal is to explain the Cookie Touch API to give the possibility of creating Scripts for the Cookie Bot.
+
