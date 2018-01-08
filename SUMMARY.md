@@ -7,10 +7,7 @@
 ## Methods
 
 * [Defining Methods](methods.md)
-
-## Scripting
-
 * [Basics](basics.md)
 
-
+## Scripting
 

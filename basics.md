@@ -2,6 +2,9 @@
 
 First let's take a look at a simple script:
 
+{% method %}
+
+
 ```js
 function maCustom() {
   console.log(`J'ai ${API.character.kamas()} kamas.`);
@@ -56,6 +59,10 @@ What we need to remember is that a script has four **States** which have to alwa
 ###### phoenix
 
 * phoenix is to represent which phoenix the character will go when he is in phantom mode.
+
+{% endmethod %}
+
+
 
 
 
