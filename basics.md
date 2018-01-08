@@ -39,5 +39,23 @@ const phenix = [
 ];
 ```
 
+What we need to remember is that a script has three **States** which have to always be present: **move**, **bank**, **phoenix**.
+
+######  move
+
+    move is to represent the maps where the bot will roam for gathering ressources or fighting.
+
+###### bank
+
+    bank is to represent which bank the character will go to when `"MAX_PODS"` is reached.
+
+###### phoenix
+
+    phoenix is to represent which phoenix the character will go when he is in phantom mode.
+
+
+
+
+
 
 
