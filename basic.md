@@ -1,15 +1,29 @@
 # How does a script work
 
-First let's take a look at a simple script:
+First let's take a look at a sample script and see how it is structured.
 
 {% method %}
-## Script Construction
+## Script Details
 
-My first method exposes how to print a message in JavaScript and Go.
+What we need to remember is that a script has four **States** which have to always be present: **config**,**move**, **bank**, **phoenix**.
+
+###### config
+
+* config is to define the number of `"MAX_PODS"` and the ressources to farm `"GATHERS"`
+
+###### move
+
+* move is to represent the maps where the bot will roam for gathering ressources or fighting.
+
+###### bank
+
+* bank is to represent which bank the character will go to when `"MAX_PODS"` is reached.
+
+###### phoenix
+
+* phoenix is to represent which phoenix the character will go when he is in phantom mode.
 
 {% sample lang="js" %}
-Here is how to print a message to `stdout` using JavaScript.
-
 ```js
 function maCustom() {
   console.log(`J'ai ${API.character.kamas()} kamas.`);
@@ -46,19 +60,5 @@ const phenix = [
   }
 ];
 
-```
-
-{% sample lang="go" %}
-Here is how to print a message to `stdout` using Go.
-
-```go
-fmt.Println("My first method")
-```
-
-{% common %}
-Whatever language you are using, the result will be the same.
-
-```bash
-$ My first method
 ```
 {% endmethod %}
