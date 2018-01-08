@@ -4,7 +4,7 @@ First let's take a look at a simple script:
 
 {% method %}
 
-
+{% sample lang="js" %}
 ```js
 function maCustom() {
   console.log(`J'ai ${API.character.kamas()} kamas.`);
@@ -42,6 +42,7 @@ const phenix = [
 ];
 ```
 
+{% common %}
 What we need to remember is that a script has four **States** which have to always be present: **config**,**move**, **bank**, **phoenix**.
 
 ###### config
