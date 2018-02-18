@@ -26,7 +26,7 @@ What we need to remember is that a script has three **States** which you'll need
 
 
 
-* config is to define the number of `"MAX_PODS"` and the ressources to farm `"ELEMENTS_TO_GATHER"` and all other configuration parameters.
+config is to define the number of `"MAX_PODS"` and the ressources to farm `"ELEMENTS_TO_GATHER"` and all other configuration parameters.
 
 {% method %}
 
