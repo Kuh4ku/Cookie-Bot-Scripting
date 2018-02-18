@@ -22,6 +22,8 @@ What we need to remember is that a script has three **States** which you'll need
 
 ###### config
 
+{% method %}
+
 * config is to define the number of `"MAX_PODS"` and the ressources to farm `"ELEMENTS_TO_GATHER"` and all other configuration parameters.
 
 {% sample lang="js" %}
@@ -33,7 +35,12 @@ const config = {
 }
 ```
 PS: `MAX_PODS` is defined as a **percentage**.
+
+{% endmethod %}
+
 ###### move
+
+{% method %}
 
 * move is to represent the maps where the bot will roam for gathering ressources or fighting.
 
@@ -48,7 +55,12 @@ const move = [
   { map: "6,-19", fight: true, path: "left" }
 ]
 ```
+
+{% endmethod %}
+
 ###### bank
+
+{% method %}
 
 * bank is to represent which bank the character will go to when `"MAX_PODS"` is reached.
 
@@ -61,7 +73,11 @@ const bank = [
 ]
 ```
 
+{% endmethod %}
+
 ###### phoenix
+
+{% method %}
 
 * phoenix is to represent which phoenix the character will go when he is in phantom mode.
 
@@ -73,7 +89,11 @@ const phenix = [
 ]
 ```
 
+{% endmethod %}
+
 ###### comments
+
+{% method %}
 
 In the scripts you have the possibility to use comments. The Script Engine being based in JavaScript comments work as follow with a double slash `//`.
 {% sample lang="js" %}
@@ -81,11 +101,12 @@ In the scripts you have the possibility to use comments. The Script Engine being
 // This line will be ignored.
 ```
 
-
-
-
+{% endmethod %}
 
 ###### example
+
+{% method %}
+
 
 This is example is a non functionning script it is simply to show and share the syntax
 
