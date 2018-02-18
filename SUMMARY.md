@@ -6,7 +6,6 @@
 
 ## Scripting
 
-* [Basics](basic.md)
-
-
+* [Header](basic.md)
+* [Structure](structure.md)
 
