@@ -1,8 +1,10 @@
 ## Script Header
 
-{% method %}
+
 
 This script header is probably the most important part of the script. This will let the dev team add your script to the **public script repositery** where other users will be able to download and use scripts as well as vote if it works well or not.
+
+{% method %}
 
 {% sample lang="js" %}
 ```js
@@ -22,9 +24,13 @@ What we need to remember is that a script has three **States** which you'll need
 
 ###### config
 
-{% method %}
+
 
 * config is to define the number of `"MAX_PODS"` and the ressources to farm `"ELEMENTS_TO_GATHER"` and all other configuration parameters.
+
+{% method %}
+
+
 
 {% sample lang="js" %}
 ```js
