@@ -1,11 +1,8 @@
 ## Script Header
 
-
-
 This script header is probably the most important part of the script. This will let the dev team add your script to the **public script repositery** where other users will be able to download and use scripts as well as vote if it works well or not.
 
 {% method %}
-
 {% sample lang="js" %}
 ```js
 //Title: Incarnam To Astrub
@@ -24,14 +21,9 @@ What we need to remember is that a script has three **States** which you'll need
 
 ###### config
 
-
-
-config is to define the number of `"MAX_PODS"` and the ressources to farm `"ELEMENTS_TO_GATHER"` and all other configuration parameters.
+Config is to define the number of `"MAX_PODS"` and the ressources to farm `"ELEMENTS_TO_GATHER"` and all other configuration parameters.
 
 {% method %}
-
-
-
 {% sample lang="js" %}
 ```js
 const config = {
@@ -40,16 +32,15 @@ const config = {
   OPEN_BAGS: true
 }
 ```
-PS: `MAX_PODS` is defined as a **percentage**.
-
 {% endmethod %}
+
+PS: `MAX_PODS` is defined as a **percentage**.
 
 ###### move
 
+Move is to represent the maps where the bot will roam for gathering ressources or fighting.
+
 {% method %}
-
-* move is to represent the maps where the bot will roam for gathering ressources or fighting.
-
 {% sample lang="js" %}
 ```js
 const move = [
@@ -61,15 +52,13 @@ const move = [
   { map: "6,-19", fight: true, path: "left" }
 ]
 ```
-
 {% endmethod %}
 
 ###### bank
 
+Bank is to represent which bank the character will go to when `"MAX_PODS"` is reached.
+
 {% method %}
-
-* bank is to represent which bank the character will go to when `"MAX_PODS"` is reached.
-
 {% sample lang="js" %}
 ```js
 const bank = [
@@ -78,15 +67,13 @@ const bank = [
   { map: 99095051, npcBank: true, path: "410" } // Map intérieure de la banque
 ]
 ```
-
 {% endmethod %}
 
 ###### phoenix
 
+Phoenix is to represent which phoenix the character will go when he is in phantom mode.
+
 {% method %}
-
-* phoenix is to represent which phoenix the character will go when he is in phantom mode.
-
 {% sample lang="js" %}
 ```js
 const phenix = [
@@ -94,29 +81,24 @@ const phenix = [
   { map: "11,9", path: "right" },
 ]
 ```
-
 {% endmethod %}
 
 ###### comments
 
-{% method %}
-
 In the scripts you have the possibility to use comments. The Script Engine being based in JavaScript comments work as follow with a double slash `//`.
+
+{% method %}
 {% sample lang="js" %}
 ```js
 // This line will be ignored.
 ```
-
 {% endmethod %}
 
 ###### example
 
-{% method %}
-
-
 This is example is a non functionning script it is simply to show and share the syntax
 
-
+{% method %}
 {% sample lang="js" %}
 ```js
 //Title: Incarnam To Astrub
