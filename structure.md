@@ -6,9 +6,10 @@ What we need to remember is that a script has three **States** which you'll need
 
 ###### config
 
+{% method %}
+
 Config is to define the number of `"MAX_PODS"` and the ressources to farm `"ELEMENTS_TO_GATHER"` and all other configuration parameters.
 
-{% method %}
 {% sample lang="js" %}
 ```js
 const config = {
@@ -17,6 +18,7 @@ const config = {
   OPEN_BAGS: true
 }
 ```
+
 {% endmethod %}
 
 PS: `MAX_PODS` is defined as a **percentage**.
@@ -39,6 +41,7 @@ const move = [
   { map: "6,-19", fight: true, path: "left" }
 ]
 ```
+
 {% endmethod %}
 
 ###### bank
