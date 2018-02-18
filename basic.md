@@ -38,9 +38,11 @@ PS: `MAX_PODS` is defined as a **percentage**.
 
 ###### move
 
+{% method %}
+
 Move is to represent the maps where the bot will roam for gathering ressources or fighting.
 
-{% method %}
+
 {% sample lang="js" %}
 ```js
 const move = [
