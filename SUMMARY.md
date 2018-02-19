@@ -8,4 +8,5 @@
 
 * [Header](basic.md)
 * [Structure](structure.md)
+* [Custom Functions](custom-functions.md)
 
