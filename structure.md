@@ -4,6 +4,8 @@ First let's take a look at a sample script and see how it is structured.
 
 What we need to remember is that a script has three **States** which you'll need most of the time: **move**, **bank**, **phoenix**. And also you will need to use the **config**.
 
+---
+
 ###### config
 
 {% method %}
@@ -22,6 +24,8 @@ const config = {
 {% endmethod %}
 
 PS: `MAX_PODS` is defined as a **percentage**.
+
+---
 
 ###### move
 
@@ -44,6 +48,8 @@ const move = [
 
 {% endmethod %}
 
+---
+
 ###### bank
 
 {% method %}
@@ -61,6 +67,8 @@ const bank = [
 
 {% endmethod %}
 
+---
+
 ###### phoenix
 
 {% method %}
@@ -77,6 +85,8 @@ const phenix = [
 
 {% endmethod %}
 
+---
+
 ###### comments
 
 {% method %}
@@ -90,9 +100,9 @@ In the scripts you have the possibility to use comments. The Script Engine being
 
 {% endmethod %}
 
-###### example
+---
 
-{% method %}
+###### example
 
 This is example is a non functionning script it is simply to show and share the syntax
 
@@ -128,5 +138,3 @@ const phenix = [
 ]
 
 ```
-
-{% endmethod %}
