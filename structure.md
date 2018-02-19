@@ -46,9 +46,10 @@ const move = [
 
 ###### bank
 
+{% method %}
+
 Bank is to represent which bank the character will go to when `"MAX_PODS"` is reached.
 
-{% method %}
 {% sample lang="js" %}
 ```js
 const bank = [
@@ -57,13 +58,15 @@ const bank = [
   { map: 99095051, npcBank: true, path: "410" } // Map intérieure de la banque
 ]
 ```
+
 {% endmethod %}
 
 ###### phoenix
 
+{% method %}
+
 Phoenix is to represent which phoenix the character will go when he is in phantom mode.
 
-{% method %}
 {% sample lang="js" %}
 ```js
 const phenix = [
@@ -71,24 +74,29 @@ const phenix = [
   { map: "11,9", path: "right" },
 ]
 ```
+
 {% endmethod %}
 
 ###### comments
 
+{% method %}
+
 In the scripts you have the possibility to use comments. The Script Engine being based in JavaScript comments work as follow with a double slash `//`.
 
-{% method %}
 {% sample lang="js" %}
 ```js
 // This line will be ignored.
 ```
+
 {% endmethod %}
 
 ###### example
 
+{% method %}
+
 This is example is a non functionning script it is simply to show and share the syntax
 
-{% method %}
+
 {% sample lang="js" %}
 ```js
 //Title: Incarnam To Astrub
@@ -120,4 +128,5 @@ const phenix = [
 ]
 
 ```
+
 {% endmethod %}
