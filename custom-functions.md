@@ -17,7 +17,6 @@ yield* npc.npc(-2, 1)
 
 For this we will take a look at a custom function to talk to the NPC to go from **Incarnam** to **Astrub**.
 
-{% sample lang="js" %}
 ```js
 // Call sutom function on map
 { map: 80220676, custom: function* () {
