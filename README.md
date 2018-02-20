@@ -6,4 +6,15 @@ This guide's goal is to explain the Cookie Touch API to give the possibility of 
 
 Here we will look at understanding the basic structure of a script as well as the headers needed to work with our Scrip Repositery and also not forgetting the Custom Functions. 
 
+# Summary
+
+## Overview
+
+* [Cookie Touch Scripting](README.md)
+
+## Scripting
+
+* [Header](basic.md)
+* [Structure](structure.md)
+* [Custom Functions](custom-functions.md)
 
