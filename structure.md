@@ -106,8 +106,6 @@ In the scripts you have the possibility to use comments. The Script Engine being
 
 This is example is a non functionning script it is simply to show and share the syntax
 
-
-{% sample lang="js" %}
 ```js
 //Title: Incarnam To Astrub
 //Version: 1.0.0
